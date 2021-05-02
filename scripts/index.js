@@ -199,3 +199,24 @@ $(function() {
   //   $('#success').removeClass('expand');
   // });
 });
+
+var form = document.getElementById("contact-form");
+    
+async function handleSubmit(event) {
+  event.preventDefault();
+  var status = document.getElementById("success");
+  var data = new FormData(event.target);
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+        'Accept': 'application/json'
+    }
+  }).then(response => {
+    status.innerHTML = "Your message was sent successfully. Thanks!";
+    form.reset()
+  }).catch(error => {
+    status.innerHTML = "Oops! There was a problem submitting your form"
+  });
+}
+form.addEventListener("submit", handleSubmit)
