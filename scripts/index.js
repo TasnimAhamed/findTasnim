@@ -185,8 +185,8 @@ $(function() {
     $.ajax({
       url: 'https://formspree.io/f/xbjqdkbr',
       method: 'POST',
-      data: { message: $('form').serialize() },
-      dataType: 'json'
+      data: { message: $('form').serialize() }
+      
     }).done(function(response) {
       $('#success').addClass('expand');
       $('#contact-form')
