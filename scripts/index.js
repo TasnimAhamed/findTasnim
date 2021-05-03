@@ -198,6 +198,12 @@ $(function() {
   // $('#close').click(function() {
   //   $('#success').removeClass('expand');
   // });
+
+  $('.demo').ripples({imageUrl:null,resolution:256,dropRadius:20,perturbance:0.4,interactive:true,crossOrigin:''});$('.demo').ripples('show');
+
+
+
+
 });
 
 var form = document.getElementById("contact-form");

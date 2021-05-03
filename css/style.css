@@ -986,7 +986,7 @@ footer .footnote {
   color: #8f9aa7;
   font-size: 14pt;
   margin-top: 35px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 footer .footnote .highlight {
   color: #e31b6d;
@@ -1296,7 +1296,7 @@ footer .footnote .highlight {
 /*# sourceMappingURL=style.css.map */
 
 
-/*about Details*/
+/*Custom CSS Details*/
 .aboutDetails{
   font-size: 18px;
   line-height: 26px;
@@ -1311,4 +1311,185 @@ footer .footnote .highlight {
 .contactText{
   font-size: 20px;
   margin-top: 15px;
+}
+.contactInfo{
+  display:flex;
+  width:100%;
+  margin-top: 40px;
+}
+.questionText{
+  font-size:20px;
+}
+.contact-details{
+  text-align: left;
+}
+.contact-details ul{
+  margin-top: 0!important;
+  margin-left: 0!important;
+  padding-left: 0!important;
+}
+.contact-details ul li{
+  list-style-type: none;
+}
+.contact-details ul li h5{
+  font-size: 20px;
+  color: #04c2c9;
+  margin:0px 0px 8px 0px;
+}
+.contact-details ul li p{
+  font-size: 19px;
+  margin:0px;
+  margin-bottom: 6px;
+}
+.contact-details ul li p span{
+  font-weight: 300;
+  color: #ffffffa6;
+}
+section:nth-of-type(5) form {
+  min-width: 600px;
+}
+section:nth-of-type(5) form {
+  margin: 0px 125px 0 0px;
+}
+@media screen and (min-width:1200px) and (max-width:1399px){
+  section:nth-of-type(5) form {
+    margin: 0px 100px 0px 25px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+  section:nth-of-type(2) .skills-wrapper .label {
+    margin: 18px 0 12px 0;
+  }
+  .aboutDetails {
+    line-height: 24px;
+  }
+  .contactText {
+    margin-top: 12px;
+  }
+  section:nth-of-type(5) form {
+    margin: 0px 50px 0px 25px;
+  }
+  section:nth-of-type(5) form {
+    min-width: 500px;
+}
+}
+@media screen and (min-width:768px) and (max-width:991px){
+  section:nth-of-type(5) form {
+    margin: 0 auto;
+  }
+  section:nth-of-type(5) form {
+    min-width: 500px;
+}
+  .contactInfo {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-details {
+  text-align: center;
+  margin-top: 75px;
+}
+.contact-details ul li h5{
+  font-size: 21px;
+  margin:0px 0px 8px 0px;
+}
+.contact-details ul li p{
+  margin-bottom: 8px;
+}
+}
+@media screen and (min-width:576px) and (max-width:767px){
+  body {
+    font-size: 10pt;
+}
+section:nth-of-type(1) .text {
+  font-size: 22pt;
+}
+.label {
+  font-size: 16pt;
+}
+  section:nth-of-type(3) .filter {
+    font-size: 12pt;
+}
+section:nth-of-type(2) .bar .tag {
+  font-size: 12px;
+}
+section:nth-of-type(5) {
+
+  padding-top: 140px;
+}
+  .questionText{
+    font-size:16px;
+  }
+  .contactInfo{
+    width: 90%;
+  }
+  footer .footnote {
+    font-size: 12pt;
+  }
+  section:nth-of-type(5) form {
+    margin: 0 auto;
+  }
+  section:nth-of-type(5) form {
+    min-width: 500px;
+}
+  .contactInfo {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-details {
+  text-align: center;
+  margin-top: 75px;
+}
+.contact-details ul li h5{
+  font-size: 21px;
+  margin:0px 0px 20px 0px;
+}
+.contact-details ul li p{
+  margin-bottom: 14px;
+}
+}
+@media screen and (min-width:320px) and (max-width:575px){
+  .resume-link {
+     margin-right: 0px; 
+  }
+  section:nth-of-type(1) .button {
+    margin-bottom: 20px;
+  }
+  section:nth-of-type(3) .filter {
+    font-size: 8pt;
+}
+section:nth-of-type(2) .bar .tag {
+  font-size: 12px;
+}
+.questionText{
+  font-size:14px;
+}
+.contactInfo{
+  width: 100%;
+}
+footer .footnote {
+  font-size: 12pt;
+}
+section:nth-of-type(5) form {
+  margin: 0px auto;
+}
+section:nth-of-type(5) form {
+  min-width: 100%;
+}
+.contactInfo {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-details {
+text-align: center;
+margin-top: 75px;
+}
+.contact-details ul li h5{
+font-size: 21px;
+margin:0px 0px 14px 0px;
+}
+.contact-details ul li p{
+margin-bottom: 12px;
+font-size: 13px;
+}
+  
 }
