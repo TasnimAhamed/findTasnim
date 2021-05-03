@@ -1,64 +1,33 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
-    discover: {
-      title: 'ChowNow Discover',
-      tag: 'FOOD ORDERING PLATFORM.',
+    agency: {
+      title: 'Creative Agency',
+      tag: 'Online Course Platform',
       detail:
-        'ChowNow Discover is a platform that lets customers discover new local restaurants and provides business owners with tools to convert first time orders into lifelong diners.',
-      link: 'https://eat.chownow.com/'
+        'Creative Agency is a web application to provide some course selling platform.A learner can log in with their mail, order a course, can track his/her course and can write a review about the course.There is also and admin panel. Admin can add/delete course, can change the order status, and can make another admin.',
+      link: 'https://creative-agency1-bd.web.app/'
     },
-    ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
+    cleanbees: {
+      title: 'Clean Bees',
+      tag: 'Best CLeaning Service',
       detail:
-        'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-      link: 'https://direct.chownow.com/direct/195/locations/260'
+        'Clean Bees is a web application to provide some cleaning services.An user can log in with their mail, order a service, can track his/her booked services and can write a review.There is also and admin panel. Admin can add/delete services, can change the order status, and can make another admin.',
+      link: 'https://cleanbees-411e0.web.app/'
     },
-    newrelic: {
-      title: 'NewRelic.com',
-      tag: 'APPLICATION PERFORMANCE MONITORING.',
+    doctor: {
+      title: 'Doctors Portal',
+      tag: 'Teeth treatment corner',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.newrelic.com'
+        'Doctors Portal is a web application to provide some teeth treatment corner.A patient can log in with their mail, get appointment , can track his/her appointment and can write a review about our service. There is also and admin panel. Admin can add/delete doctor and service, can change the appointment status, and can make another admin.',
+      link: 'https://doctors-portal8.firebaseapp.com/'
     },
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
+    surah: {
+      title: 'Surah Player',
+      tag: 'Beautiful recitation from Holly Quran',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
-    },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
-      detail:
-        'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.'
-    },
-    powur: {
-      title: 'Powur.com',
-      tag: 'CONSUMER POWERED MARKETING.',
-      detail:
-        'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
-    },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
-      detail:
-        'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.'
-    },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail:
-        'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
-    },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail:
-        'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.'
+        'Some surah here. click the play button and listen beautiful recitation. Refresh your mind with beautiful recitation from Holly Quran. Click below & enjoy mind blowing recitation...',
+        link: 'https://tasnimahamed.github.io/Surah-player/'
     }
   };
 
@@ -160,7 +129,7 @@ $(document).ready(function() {
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+          "url('img/slides/" + id + '-' + index + ".png') center center/cover",
         backgroundSize: 'cover'
       });
     });
