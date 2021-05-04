@@ -1301,6 +1301,7 @@ footer .footnote .highlight {
 .aboutDetails{
   font-size: 18px;
   line-height: 26px;
+  text-align:justify;
 }
 .mt_75{
   margin-top: 100px;
@@ -1449,6 +1450,12 @@ section:nth-of-type(5) {
 }
 }
 @media screen and (min-width:320px) and (max-width:575px){
+  .label {
+    font-size: 16pt;
+  }
+  body{
+    font-size:10pt;
+  }
   .resume-link {
      margin-right: 0px; 
   }
