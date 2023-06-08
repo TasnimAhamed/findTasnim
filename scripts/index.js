@@ -206,7 +206,7 @@ $(function() {
 
 });
 
-let form = document.getElementById("contact-form");
+var form = document.getElementById("contact-form");
 console.log(form)
 async function handleSubmit(event) {
   event.preventDefault();
